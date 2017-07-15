@@ -6,7 +6,8 @@
 		<meta name="author" content="Marcos Vinicius Sombra">
 
 		<link href="css/style.css" rel="stylesheet" type="text/css">
-		
+		<link href="icon.png" rel="icon">
+
 		<title>Creme Dental Sabor Alho</title>
 	</head>
 
