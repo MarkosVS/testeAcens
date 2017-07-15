@@ -13,5 +13,8 @@
 	</head>
 
 	<body>
+		<header>
+			<h1>Garlic Toothpaste</h1>
+		</header>
 	</body>
 </html>
