@@ -42,9 +42,24 @@ nav {
     color: #00008B;
 	font-family: 'Oswald', sans-serif;
     margin-top: 10px;
+    margin-left: 5px;
+}
+
+#garlic {
+    width: 360px;
+    text-align: center;
 }
 
 img {
-    margin-top: 5px;
+    margin-top: 3px;
     border: 2px solid rgba(0, 0, 139, 1);
+}
+
+#legenda { 
+    margin-top: -10px;
+}
+
+.subtitulo {
+    font-style: italic;
+    font-size: 8pt;
 }
