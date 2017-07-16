@@ -43,3 +43,8 @@ nav {
 	font-family: 'Oswald', sans-serif;
     margin-top: 10px;
 }
+
+img {
+    margin-top: 5px;
+    border: 2px solid rgba(0, 0, 139, 1);
+}

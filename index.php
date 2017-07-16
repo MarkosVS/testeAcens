@@ -26,7 +26,10 @@
 		</nav>
         
         <div id="corpo">
-            Hello World.
+            Creme dental sabor alho
+            <div id="garlic">
+                <img src="garlic.jpg">
+            </div>
         </div>
 	</body>
 </html>
