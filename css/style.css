@@ -64,3 +64,8 @@ img {
     font-style: italic;
     font-size: 8pt;
 }
+
+#txtVantagens {
+    width: 410px;
+    text-align: justify;
+}

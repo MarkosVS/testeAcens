@@ -25,7 +25,7 @@
 			</ul>
 		</nav>
         
-        <div id="corpo">
+        <section id="corpo">
             Creme dental sabor alho
             <div id="garlic">
                 <img src="garlic.jpg" alt="Garlic Toothpaste" title="Garlic Toothpaste">
@@ -33,6 +33,12 @@
                     <span class="subtitulo">Recomendados por 9 entre cada 10 dentistas</span>
                 </div>
             </div>
-        </div>
+            
+            <div id="txtVantagens">
+                <h2>Vantagens do produto:</h2>
+                
+                <p>A Garlic Toothpaste combate até 99,99% dos germes e bactérias presentes na boca, previne vampiros, melhora o sabor dos alimentos - até mesmo o sabor do seu beijo. Também, previne o surgimento de novas bactérias e impede a cárie.</p>
+            </div>
+        </section>
 	</body>
 </html>
