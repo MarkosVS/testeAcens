@@ -3,8 +3,15 @@
 ?>
 
 		<title>Garlic Toothpaste - Adquirir</title>
+
 	</head>
 
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#cep").mask("99.999-999");
+        });
+    </script>
 	<body>
 		<header>
 			<h1>Garlic Toothpaste</h1>

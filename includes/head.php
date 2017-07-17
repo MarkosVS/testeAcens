@@ -9,3 +9,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<link href="icon.png" rel="icon">
+        
+        <script type="text/jscript" src="js/jquery-1.12.1.js"></script>
+        <script type="text/jscript" src="js/jquery.maskedinput-1.1.4.js"></script>
+        <script type="text/jscript" src="js/cep.js"></script>
