@@ -79,6 +79,48 @@
 						<input class="input-form" id="form-enviar" type="submit" value="Comprar" name="comprar" >
 					</div>
             </form>
+            
+            <?PHP //enviar email
+                if(isset($_POST['comprar'])){
+                    $nome = trim(strip_tags($_POST['nome']));
+                    $email = trim(strip_tags($_POST['email']));
+                    $cep = trim(strip_tags($_POST['cep']));
+                    $rua = trim(strip_tags($_POST['rua']));
+                    $num = trim(strip_tags($_POST['num']));
+                    $bairro = trim(strip_tags($_POST['bairro']));
+                    $cidade = trim(strip_tags($_POST['cidade']));
+                    $estado = trim(strip_tags($_POST['estado']));
+                    $parcelas = trim(strip_tags($_POST['parcelas']));
+                    
+                    $data_envio = date('d/m/Y');
+					$hora_envio = date('H:i:s');
+                    
+                    $destino = "marukosu.mvdss@gmail.com";
+                    $assunto = $nome." pediu uma Garlic Toothpaste";
+                    
+                    $arquivo = "Foi realizado um pedido da Garlic Toothpaste no dia ".$data_envio." às ".$hora_envio.".<br><br>";
+                    $arquivo .= "Nome: ".$nome;
+                    $arquivo .= "<br>Endereço: ".$rua.", nº ".$num." - ".$bairro;
+                    $arquivo .= "<br>".$cidade." - ".$estado;
+                    $arquivo .= "<br><br>Nº de parcelas: ".$parcelas;
+                    
+                    $headers = 'MIME-Version: 1.0' . "\r\n";
+				    $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+				    $headers .= 'from: Admin Garlic Toothpaste';
+                    
+                    $enviar = mail($destino, $assunto, $arquivo, $headers);
+                    if($enviar){
+						$mgm = "PEDIDO ENVIADO COM SUCESSO";
+						echo "Pedido enviado com sucesso. Voltando ao início";
+						header("Refresh: 5, index.php");
+					}
+					else{
+						$mgm = "ERRO AO ENVIAR PEDIDO!";	
+                        echo $mgm;
+                        header("Refresh: 5, adquirir.php");
+					}
+                }
+            ?>
         </section>
 	</body>
 </html>
