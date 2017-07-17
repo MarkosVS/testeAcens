@@ -17,7 +17,7 @@
         <section id="corpo">
             Creme dental sabor alho
             <div id="garlic">
-                <img src="garlic.jpg" alt="Garlic Toothpaste" title="Garlic Toothpaste">
+                <img src="img/garlic.jpg" alt="Garlic Toothpaste" title="Garlic Toothpaste">
                 <div id="legenda">    
                     <span class="subtitulo">Recomendados por 9 entre cada 10 dentistas</span>
                 </div>
