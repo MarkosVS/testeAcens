@@ -69,3 +69,20 @@ img {
     width: 410px;
     text-align: justify;
 }
+
+#form-pedido {
+    width: 250px;
+}
+
+.campo-form {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.input-form {
+    width: 100%;
+}
+
+#form-enviar {
+    width: 75%;
+}
