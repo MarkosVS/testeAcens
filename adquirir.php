@@ -95,7 +95,7 @@
                     $data_envio = date('d/m/Y');
 					$hora_envio = date('H:i:s');
                     
-                    $destino = "marukosu.mvdss@gmail.com";
+                    $destino = "teste.acens@gmail.com";
                     $assunto = $nome." pediu uma Garlic Toothpaste";
                     
                     $arquivo = "Foi realizado um pedido da Garlic Toothpaste no dia ".$data_envio." às ".$hora_envio.".<br><br>";
