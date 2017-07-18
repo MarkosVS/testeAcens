@@ -81,6 +81,7 @@
             </form>
             
             <?PHP //enviar email
+                date_default_timezone_set('America/Sao_Paulo');
                 if(isset($_POST['comprar'])){
                     $nome = trim(strip_tags($_POST['nome']));
                     $email = trim(strip_tags($_POST['email']));
